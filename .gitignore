@@ -1,0 +1,30 @@
+# Build artifacts
+bin/
+*.exe
+*.test
+*.out
+
+# Go
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Agentic / development artifacts
+.claude/
+CLAUDE.md
+SKILL.md
+
+# Internal design documents
+docs/rfcs/
+
+# PATCHY runtime
+.patchy/
